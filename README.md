@@ -1,2 +1,2 @@
 # birthday-reminder
-Created with CodeSandbox
+A birthday reminder app created in ReactJS.
