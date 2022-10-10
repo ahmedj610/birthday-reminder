@@ -15,6 +15,7 @@ function App() {
         />
         <button onClick={() => setPeople([])}>Clear All</button>
       </section>
+      <h1>Is this working?</h1>
     </main>
   )
 }
