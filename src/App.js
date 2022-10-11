@@ -4,11 +4,16 @@ import List from './List';
 
 function App() {
 
-  const [people, setPeople] = useState(data)
+  function isHelping() {
+    true ?
+      console.log(true) :
+      console.log(false)
+  }
 
+  const [people, setPeople] = useState(data)
   return (
     <main>
-      <section className="container">
+      <section className="container" onClick={isHelping}>
         <h3>{people.length} Birthdays Today</h3>
         <List
           people={people}
